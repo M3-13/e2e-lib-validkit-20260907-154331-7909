@@ -5,7 +5,8 @@
       "name": "validkit",
       "stack": "python",
       "kind": "library",
-      "install": [["${python}", "-m", "pip", "install", "-q", "-e", "."]]
+      "install": [["${python}", "-m", "pip", "install", "-q", "-e", "."]],
+      "test": [["${python}", "-m", "pytest"]]
     }
   ]
 }
